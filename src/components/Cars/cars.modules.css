@@ -1,0 +1,13 @@
+.car-card-element{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: center;
+    animation: cars-box 1 2s;
+}
+@keyframes cars-box {
+    0%{
+        margin-top: 1000px;
+    }
+}

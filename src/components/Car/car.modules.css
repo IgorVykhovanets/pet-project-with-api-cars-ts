@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.car-element {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.85);
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.car-element > h1 {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.car-element > h3 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.button-card-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.button-card-box > button {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+}
+.button-card-box > button:hover{
+    background: black;
+    transition: 0.5s;
+    color: white;
+}
+
+.button-card-box > a > button {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button-card-box > a > button:hover{
+    background: black;
+    transition: 0.5s;
+    color: white;
+}
+

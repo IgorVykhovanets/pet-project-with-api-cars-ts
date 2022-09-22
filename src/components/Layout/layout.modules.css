@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+.footer-nav-link-menu{
+    display: flex;
+    gap: 400px;
+}
+.footer-nav-link-menu > a {
+    text-decoration: none;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: white;
+    animation: nav-link-menu 1 1.5s;
+    transition: 0.5s;
+    font-family: 'Quicksand', sans-serif;
+}
+@keyframes nav-link-menu {
+    0%{
+        margin-bottom: 1000px;
+    }
+}
+.footer-nav-link-menu > a:hover{
+    transition: 0.5s;
+    font-size: 34px;
+    color: rgba(255, 0, 0, 0.9);
+}
+.footer-nav-link-menu > a.active{
+    font-size: 34px;
+    color: rgba(255, 0, 0, 0.9);
+}

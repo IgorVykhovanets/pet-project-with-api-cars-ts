@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.form-box-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.form-box-element > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.form-input-element > {
+    display: flex;
+    flex-direction: column;
+}
+.form-box-element > form > input{
+    width: 200px;
+}
+.form-box-element > form > input{
+    border: 1px solid rgba(0, 0, 0, 0.85);
+    padding-left: 2px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.form-box-element > form > button {
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.85);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    padding-left: 15px;
+}
+.form-box-element > form > button:hover{
+    background: black;
+    transition: 0.5s;
+    color: white;
+}
+.form-box-element > form > span{
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 1px;
+}
